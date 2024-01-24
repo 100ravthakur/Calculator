@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My calculaator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1d8878831f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="main">
+        <div class="cal">
+            <h1>calculator</h1>
+            <button id="smile"> <i class="fa-solid fa-face-smile-wink"></i></button>
+        </div>
+
+        <div id="display-con">
+            <input type="text" id="display" readonly>
+
+        </div>
+
+        <div class="button">
+            <div class="uper-button">
+                <button class="my-Del" data-value="delete">Delete</button>
+                <button class="my-AC" data-value="C">AC</button>
+                <button class="my-Per" data-value="/">/</button>
+            </div>
+            <div class="lower-button">
+                <button class="my-btn" data-value="1">1</button>
+                <button class="my-btn" data-value="2">2</button>
+                <button class="my-btn" data-value="3">3</button>
+                <button class="my-btn" data-value="+">+</button>
+                <button class="my-btn" data-value="4">4</button>
+                <button class="my-btn" data-value="5">5</button>
+                <button class="my-btn" data-value="6">6</button>
+                <button class="my-btn" data-value="-">-</button>
+                <button class="my-btn" data-value="7">7</button>
+                <button class="my-btn" data-value="8">8</button>
+                <button class="my-btn" data-value="9">9</button>
+                <button class="my-btn" data-value="*">*</button>
+                <button class="my-btn" data-value="0">0</button>
+                <button class="my-btn" data-value="00">00</button>
+                <button class="my-btn" data-value=".">.</button>
+                <button class="my-btn" data-value="=">=</button>
+            </div>
+        </div>
+    </div>
+    <!-- <form action="">
+
+        <input type="text" id="first"/> <br>
+        <input type="text" id="second"/><br>
+        <input type="button" onclick="multiBy()" value="multiply"/>
+        <input type="button" onclick="dividedBy()" Value="Divide" />
+
+
+        <p>result :</p>
+        <span id="result"></span>
+
+    </form> -->
+
+
+
+    <script defer src="myjs.js"></script>
+
+    <!-- <script src="demo.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+body {
+    /* background: rgb(45,2,57); */
+    background: radial-gradient(circle, rgba(45, 2, 57, 1) 18%, rgba(22, 9, 75, 1) 75%);
+}
+
+input#display {
+    width: 98%;
+    height: 80px;
+    font-size: 25px;
+    background-color: #71a4a4;
+}
+
+button.my-Del {
+    width: 90px;
+    height: 50px;
+}
+
+.cal {
+    /* text-align: center; */
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+}
+
+.fa-solid,
+.fas {
+    padding: 16px 0;
+    font-size: 32px;
+    color: yellow;
+}
+
+button.my-AC {
+    width: 90px;
+    height: 50px;
+}
+
+button.my-Per {
+    width: 90px;
+}
+
+div#main {
+    width: 305px;
+    min-height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+    display: flex;
+    margin-top: 100px;
+}
+
+.uper-button {
+
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    width: 100%;
+    justify-content: space-around;
+}
+
+button.my-btn {
+    width: 65px;
+    height: 55px;
+    /* border-radius: 52%; */
+    /* text-decoration: none; */
+    margin: 5px;
+}
+
+button#smile {
+    background: none;
+    border: 0px;
+}
+
+.lower-button {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    width: 99%;
+    border: 1px #fff solid;
+    margin: 2px;
+}
+
+
+button {
+    background-color: slategrey;
+    font-size: 18px;
+}
+
+.uper-button button {
+    background-color: #e6a7b8;
+}
+
+button.my-Per {
+    background-color: slategrey;
+}
